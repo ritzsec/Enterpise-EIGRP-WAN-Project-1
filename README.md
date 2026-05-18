@@ -156,9 +156,6 @@ enterprise-eigrp-wan-project/
 ```
 
 ```
-
----
-
 # 📚 Key Learning Outcomes
 
 * Deep understanding of EIGRP routing behavior
