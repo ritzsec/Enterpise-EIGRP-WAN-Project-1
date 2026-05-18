@@ -127,11 +127,20 @@ enterprise-eigrp-wan-project/
 │   └── EIGRP_Enterprise_IP_Assignment_Plan.txt
 │
 ├── configs/
-│   ├── HQ/
-│   ├── Branch1/
-│   ├── Branch2/
-│   ├── Branch3/
-│   └── ISPs/
+│   ├── Branch_1_R1
+│   ├── Branch_1_R2
+│   ├── Branch_2_R1
+│   ├── Branch_2_R2
+│   ├── Branch_3_R1
+│   ├── Branch_3_R2
+│   ├── HQ_ROUTER_1
+│   ├── HQ_ROUTER_2
+│   └── ISP_1
+│   └── ISP_2
+│   └── ISP_3
+│   └── ISP_4
+│   └── ISP_5
+│   └── ISP_6
 │
 ├── reports/
 │   ├── Enterprise_EIGRP_Project_Report.pdf
