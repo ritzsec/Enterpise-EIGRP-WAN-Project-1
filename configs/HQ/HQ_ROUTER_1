@@ -1,0 +1,44 @@
+hostname HQ_ROUTER_1
+
+interface f0/0
+ ip address 10.0.1.40 255.255.255.0
+ no shutdown
+
+interface f1/0
+ ip address 172.16.1.40 255.255.255.0
+ no shutdown
+
+interface f2/0
+ ip address 172.16.2.40 255.255.255.0
+ no shutdown
+
+interface f3/0
+ ip address 172.16.3.40 255.255.255.0
+ no shutdown
+
+interface f4/0
+ ip address 172.16.4.40 255.255.255.0
+ no shutdown
+
+interface f5/0
+ ip address 172.16.5.40 255.255.255.0
+ no shutdown
+
+interface f6/0
+ ip address 172.16.6.40 255.255.255.0
+ no shutdown
+
+router eigrp 100
+ no auto-summary
+ network 10.0.1.0
+ network 172.16.1.0
+ network 172.16.2.0
+ network 172.16.3.0
+ network 172.16.4.0
+ network 172.16.5.0
+ network 172.16.6.0
+
+interface f0/0
+ vrrp 1 ip 10.0.1.5
+ vrrp 1 priority 120
+ vrrp 1 preempt  
