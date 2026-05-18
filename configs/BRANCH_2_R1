@@ -1,0 +1,26 @@
+hostname BRANCH_2_R1
+
+interface f2/0
+ ip address 192.168.2.10 255.255.255.0
+ no shutdown
+
+interface f0/0
+ ip address 172.16.17.10 255.255.255.0
+ no shutdown
+
+interface f1/0
+ ip address 172.16.18.10 255.255.255.0
+ delay 100
+ no shutdown
+
+router eigrp 100
+ no auto-summary
+ network 192.168.2.0
+ network 172.16.17.0
+ network 172.16.18.0
+ variance 2
+
+interface f2/0
+ vrrp 1 ip 192.168.2.100
+ vrrp 1 priority 120
+ vrrp 1 preempt
