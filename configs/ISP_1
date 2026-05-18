@@ -1,0 +1,24 @@
+hostname ISP_1
+
+interface f0/0
+ ip address 172.16.1.1 255.255.255.0
+ no shutdown
+
+interface f1/0
+ ip address 172.16.7.1 255.255.255.0
+ no shutdown
+
+interface f2/0
+ ip address 172.16.13.1 255.255.255.0
+ no shutdown
+
+interface f3/0
+ ip address 172.16.15.1 255.255.255.0
+ no shutdown
+
+router eigrp 100
+ no auto-summary
+ network 172.16.13.0
+ network 172.16.15.0
+ network 172.16.1.0
+ network 172.16.7.0
