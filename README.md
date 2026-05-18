@@ -124,7 +124,7 @@ enterprise-eigrp-wan-project/
 │
 ├── topology/
 │   ├── topology-diagram.png
-│   └── eve-ng-topology.png
+│   └── EIGRP_Enterprise_IP_Assignment_Plan.txt
 │
 ├── configs/
 │   ├── HQ/
