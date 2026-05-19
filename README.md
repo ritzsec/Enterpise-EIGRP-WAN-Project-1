@@ -143,12 +143,12 @@ enterprise-eigrp-wan-project/
 │   └── ISP_6
 │
 └── screenshots/
-│   ├── eigrp-neighbors.png
-│   ├── eigrp-topology-table.png
-│   ├── vrrp-master-backup.png
-│   ├── failover-test.png
-│   ├── traceroute-test.png
-│   └── unequal-cost-load-balancing.png
+│   ├── failover-testing
+│   ├── neighbor-table
+│   ├── routing-table
+│   ├── topology-table
+│   ├── vrrp-status
+│  
 │
 ├── reports/
 │   ├── Enterprise_EIGRP_Project_Report.pdf
