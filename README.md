@@ -142,17 +142,18 @@ enterprise-eigrp-wan-project/
 │   └── ISP_5
 │   └── ISP_6
 │
+└── screenshots/
+│   ├── eigrp-neighbors.png
+│   ├── eigrp-topology-table.png
+│   ├── vrrp-master-backup.png
+│   ├── failover-test.png
+│   ├── traceroute-test.png
+│   └── unequal-cost-load-balancing.png
+│
 ├── reports/
 │   ├── Enterprise_EIGRP_Project_Report.pdf
 │   └── Professional_Config_Guide.pdf
 │
-└── screenshots/
-    ├── eigrp-neighbors.png
-    ├── eigrp-topology-table.png
-    ├── vrrp-master-backup.png
-    ├── failover-test.png
-    ├── traceroute-test.png
-    └── unequal-cost-load-balancing.png
 ```
 
 ```
