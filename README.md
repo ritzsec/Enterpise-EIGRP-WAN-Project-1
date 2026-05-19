@@ -151,8 +151,8 @@ enterprise-eigrp-wan-project/
 │  
 │
 ├── reports/
-│   ├── Enterprise_EIGRP_Project_Report.pdf
-│   └── Professional_Config_Guide.pdf
+│   ├── Deatailed_Enterprise_EIGRP_Project_Report.pdf
+│   └── Enterprise_EIGRP_Professional_Config_Document.pdf
 │
 ```
 
